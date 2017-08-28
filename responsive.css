@@ -1,0 +1,88 @@
+/* ***** DESKTOP ***** */
+@media only screen and (max-width: 1439px) {
+	
+	.inner-container {
+		width: 1024px;
+	}
+
+	h1 {
+		font-size: 24px;
+		letter-spacing: 0.7px;
+	}
+
+	#whatido h1 {
+		padding-top: 36px;
+	}
+
+	#about h1 {
+		padding-top: 44px;
+	}
+
+	#portfolio h1 {
+		padding-top: 34px;
+	}
+
+}
+
+/* ***** TABLET ***** */
+@media only screen and (max-width: 1203px) {
+	
+	.inner-container {
+		width: 768px;
+	}
+
+	h1 {
+		font-size: 24px;
+		letter-spacing: 0.7px;
+	}
+
+	#whatido h1 {
+		padding-top: 36px;
+	}
+	
+	#about h1 {
+		padding-top: 44px;
+	}
+
+	#portfolio h1 {
+		padding-top: 34px;
+	}
+
+}
+
+/* ***** PHONE ***** */
+@media only screen and (max-width: 767px) {
+	
+	.inner-container {
+		width: 320px;
+	}
+
+	h1 {
+		font-size: 20px;
+		letter-spacing: 0.6px;
+	}
+
+	#whatido h1 {
+		padding-top: 18px;
+	}
+	
+	#about h1 {
+		padding-top: 26px;
+	}
+
+	#portfolio h1 {
+		padding-top: 23px;
+	}
+
+	#footer {
+		font-size: 10px;
+
+		height: 61px;
+		line-height: 61px;
+	}
+
+	#footer span {
+		line-height: 1.1;
+	}
+
+}

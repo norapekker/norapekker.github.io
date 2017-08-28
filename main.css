@@ -1,0 +1,149 @@
+body, html {
+	margin:0;
+	padding:0;
+
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 300;
+
+	box-sizing: border-box;
+}
+
+#container {
+	
+}
+
+.inner-container {
+	margin-left: auto;
+	margin-right: auto;
+
+	border-left: 1px dashed lightgrey;
+	border-right: 1px dashed lightgrey;
+
+	height: 100%;
+	width: 1440px;
+}
+
+h1 {
+	text-transform: uppercase;
+	text-align: center;
+
+	margin: 0;
+	
+	font-weight: 500;
+	font-size: 30px;
+	letter-spacing: 0.9px;
+}
+
+
+/* ***** SECTIONS ***** */
+
+#menu {
+	background-color: #ffffff;
+ 	box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.5);
+
+ 	z-index: 1;
+
+ 	position: fixed;
+ 	top: 0;
+ 	left: 0;
+ 	right: 0;
+
+	height: 50px;
+	line-height: 50px;
+}
+
+#menu span {
+	display: inline-block;
+	vertical-align: middle;
+	line-height: normal;
+
+	padding-left: 9px;
+}
+
+#menu a {
+	margin-right: 27px;
+
+	font-size: 14px;
+	letter-spacing: 0.4px;
+	color: #0b1a2b;
+	text-decoration: none;
+}
+
+#menu a:active {
+	margin-right: 27px;
+
+	font-weight: 600;
+	text-decoration: underline;
+}
+
+#header {
+	background-image: url('img/wireframes.jpeg');
+	background-size: cover;
+	
+	position: relative;
+
+	margin-top: 50px;
+
+	height: 638px;
+	width: 100%;
+}
+
+#header-overlay {
+	opacity: 0.85;
+	background-color: #0b1a2b;
+
+	height: 100%;
+	width: 100%;
+
+	position: absolute;
+}
+
+#whatido {
+	height: 674px;
+}
+
+#whatido h1 {
+	padding-top: 30px;
+}
+
+#about {
+	background-color: #0b1a2b;
+	height: 493px;
+	color: #ffffff;
+}
+
+#about h1 {
+	padding-top: 44px;
+}
+
+#portfolio {
+	height: 674px;
+}
+
+#portfolio h1 {
+	padding-top: 44px;
+}
+
+#contact {
+	background-image: url('img/desk.jpeg');
+	background-size: cover;
+	height: 640px;
+}
+
+#footer {
+	background-color: #e4e4e4;
+	color: #0b1a2b;
+	text-align: center;
+
+	font-size: 12px;
+	letter-spacing: 0.4px;
+
+	height: 50px;
+	line-height: 50px;
+}
+
+#footer span {
+	display: inline-block;
+	vertical-align: middle;
+	line-height: normal;
+}
