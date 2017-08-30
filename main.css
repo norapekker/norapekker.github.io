@@ -4,6 +4,7 @@ body, html {
 
 	font-family: 'Montserrat', sans-serif;
 	font-weight: 300;
+	color: #0b1a2b;
 
 	box-sizing: border-box;
 }
@@ -61,11 +62,11 @@ h1 {
 }
 
 #menu a {
+	color: #0b1a2b;
 	margin-right: 27px;
 
 	font-size: 14px;
 	letter-spacing: 0.4px;
-	color: #0b1a2b;
 	text-decoration: none;
 }
 
@@ -130,9 +131,67 @@ h1 {
 	height: 640px;
 }
 
+#contact > .inner-container {
+	padding-top: 181px;
+	box-sizing: border-box;
+}
+
+#contact > div > div {
+	background-color: white;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+	position: relative;
+
+	width: 673px;
+	height: 361px;
+}
+
+#contact h1 {
+	font-size: 30px;
+	font-weight: 300;
+	letter-spacing: 0.9px;
+	text-align: center;
+	border-bottom: solid 1px #0b1a2b;
+	margin-left: auto;
+	margin-right: auto;
+
+	width: 237px;
+	padding-top: 44px;
+	padding-bottom: 3px;
+}
+
+#contact .text {
+	margin-bottom: 0;
+
+	margin-top: 25px;
+	font-size: 16px;
+	font-weight: 300;
+	line-height: 1.25;
+	letter-spacing: 0.5px;
+}
+
+#contact .detail {
+	margin-bottom: 0;
+
+	margin-top: 30px;
+	font-size: 36px;
+	font-weight: 300;
+	line-height: 1.44;
+	letter-spacing: 1.1px;
+}
+
+#contact .linkedin {
+	border: 0;
+	position: absolute;
+
+	bottom: 21px;
+	width: 30px;
+	height: 30px;
+}
+
 #footer {
 	background-color: #e4e4e4;
-	color: #0b1a2b;
 	text-align: center;
 
 	font-size: 12px;
