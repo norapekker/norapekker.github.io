@@ -10,6 +10,32 @@
 		letter-spacing: 0.7px;
 	}
 
+	#header {
+		height: 495px;
+	}
+
+	#header h1 {
+		padding-top: 9px;
+		margin-top: 14px;
+		font-size: 44px;
+		font-weight: 300;
+		letter-spacing: 1.3px;
+	}
+
+	#header h2 {
+		margin-top: 1px;
+		font-size: 26px;
+		font-weight: 300;
+		letter-spacing: 0.8px;
+	}
+
+	#header .logo {
+		width: 86px;
+		height: 85px;
+
+		margin-top: 74px;
+	}
+
 	#whatido h1 {
 		padding-top: 36px;
 	}
@@ -34,6 +60,32 @@
 	h1 {
 		font-size: 24px;
 		letter-spacing: 0.7px;
+	}
+
+	#header {
+		height: 372px;
+	}
+
+	#header h1 {
+		padding-top: 9px;
+		margin-top: 14px;
+		font-size: 32px;
+		font-weight: 300;
+		letter-spacing: 1px;
+	}
+
+	#header h2 {
+		margin-top: 1px;
+		font-size: 20px;
+		font-weight: 300;
+		letter-spacing: 0.6px;
+	}
+
+	#header .logo {
+		width: 80px;
+		height: 79px;
+
+		margin-top: 58px;
 	}
 
 	#whatido h1 {
@@ -107,6 +159,34 @@
 	h1 {
 		font-size: 20px;
 		letter-spacing: 0.6px;
+	}
+
+	#header {
+		height: 360px;
+	}
+
+	#header h1 {
+		width: 232px;
+
+		padding-top: 18px;
+		margin-top: 20px;
+		font-size: 18px;
+		font-weight: 300;
+		letter-spacing: 0.6px;
+	}
+
+	#header h2 {
+		margin-top: 0px;
+		font-size: 14px;
+		font-weight: 300;
+		letter-spacing: 0.4px;
+	}
+
+	#header .logo {
+		width: 55px;
+		height: 55px;
+
+		margin-top: 76px;
 	}
 
 	#whatido h1 {

@@ -99,6 +99,41 @@ h1 {
 	position: absolute;
 }
 
+#header .inner-container {
+	z-index: 1;
+	position: relative;
+	text-align: center;;
+}
+
+#header h1 {
+	border-top: solid 1px #ffffff;
+	display: inline-block;
+
+	padding-top: 14px;
+	margin-top: 23px;
+	width: 430px;
+	font-size: 48px;
+	font-weight: 300;
+	letter-spacing: 1.5px;
+	color: #759bbf;
+}
+
+#header h2 {
+	margin-top: 4px;
+	font-size: 30px;
+	font-weight: 300;
+	font-style: italic;
+	letter-spacing: 0.9px;
+	color: #ffffff;
+}
+
+#header .logo {
+	width: 107px;
+	height: 105px;
+
+	margin-top: 106px;
+}
+
 #whatido {
 	height: 674px;
 }
