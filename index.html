@@ -7,8 +7,10 @@
 	<meta name="viewport" content="initial-scale=1"/>
 
 	<link href="https://fonts.googleapis.com/css?family=Montserrat:300,300i,500" rel="stylesheet">
-	<link rel="stylesheet" href="main.css?7" type="text/css">
-	<link rel="stylesheet" href="responsive.css?7" type="text/css">
+	<link rel="stylesheet" href="main.css?8" type="text/css">
+	<link rel="stylesheet" href="responsive.css?8" type="text/css">
+
+	<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha256-k2WSCIexGzOj3Euiig+TlR8gA0EmPjuc79OEeY5L45g="   crossorigin="anonymous"></script>
 </head>
 <body>
 	<div id="container">
@@ -21,10 +23,23 @@
 					<a href="#portfolio">Portfolio</a>
 					<a href="#contact">Contact</a>
 				</span>
+				<a id="burger-button" href="#" onclick="return false;"><img src="img/menu@3x.svg" class="burger" alt="Menu"/></a>
 			</div>
 		</div>
+		<div id="burger-menu">
+			<span>
+				<a id="close-button" href="#" onclick="return false;"><img src="img/x@3x.svg" class="close-menu" alt="Close"/></a>
+			</span>
+			<span>
+				<a href="#">Home</a>
+				<a href="#whatido">What do I do?</a>
+				<a href="#about">About</a>
+				<a href="#portfolio">Portfolio</a>
+				<a href="#contact">Contact</a>
+			</span>
+		</div>
 		<div id="header">
-			<div id="header-overlay"></div>
+			<div class="section" id="header-overlay"></div>
 			<div class="inner-container">
 				<img src="img/NP_logo@2x.png" class="logo" alt="NP" /><br />
 				<h1>Nora Pekker</h1>
@@ -93,5 +108,10 @@
 			</div>
 		</div>
 	</div>
+	<script type="text/javascript">
+		$('#burger-button, #close-button, #burger-menu a').click(function () {
+		  $('#burger-menu').toggleClass('open');
+		});
+	</script>
 </body>
 <html>

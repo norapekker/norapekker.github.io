@@ -162,8 +162,75 @@
 		letter-spacing: 0.6px;
 	}
 
+	#menu {
+		height: 40px;
+	}
+
+	#menu span {
+		display: none;
+	}
+
+	#burger-button {
+		display: inline-block;
+		margin: 0 !important;
+
+		position: absolute;
+		top: 12px;
+		right: 10px;
+
+		z-index: 1002;
+
+		line-height: 0 !important;
+	}
+
+	#burger-button .burger {
+		width: 23px;
+		height: 17px;
+	}
+
+	#close-button .close-menu {
+		width: 23px;
+		height: 17px;
+	}
+
+	#close-button {
+		text-align: right;
+		margin-right: 17px;
+
+		margin-top: 21px !important;
+	}
+
+	#burger-menu {
+		text-align: center;
+	}
+
+	#burger-menu.open {
+		position: fixed;
+		display: block;
+		height: 400px;
+		top: 0;
+		left: 0;
+		right: 0;
+
+		background-color: #759bbf;
+		z-index: 1001;
+	}
+
+	#burger-menu a {
+		display: block;
+
+		font-size: 20px;
+		letter-spacing: 0.6px;
+		color: #ffffff;
+		text-decoration: none;
+		text-transform: uppercase;
+		margin-top: 35px;
+	}
+
 	#header {
 		height: 360px;
+
+		margin-top: 40px;
 	}
 
 	#header h1 {
@@ -192,6 +259,42 @@
 
 	#whatido h1 {
 		padding-top: 18px;
+	}
+
+	#whatido h2 {
+		font-size: 18px;
+		margin-bottom: 4px;
+	}
+
+	#whatido span {
+		text-align: center;
+		display: inline-block;
+
+		font-size: 12px;
+		font-weight: 300;
+		letter-spacing: 0.4px;
+		width: 300px;
+	}
+
+	#whatido .topic {
+		margin-bottom: 40px;
+	}
+
+	#whatido .download-info {
+		width: 247px;
+		font-size: 12px;
+		font-weight: 300;
+		line-height: 1.67;
+		letter-spacing: 0.5px;
+	}
+
+	#whatido .download-info a {
+		margin-bottom: 50px;
+		margin-top: 14px;
+		font-size: 12px;
+		font-weight: 500;
+		letter-spacing: 0.4px;
+		border-radius: 4px;
 	}
 	
 	#about h1 {

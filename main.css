@@ -13,12 +13,18 @@ body, html {
 	
 }
 
+/*
+*[id]:before { 
+  display: block; 
+  content: " "; 
+  margin-top: -40px; 
+  height: 40px; 
+  visibility: hidden; 
+}*/
+
 .inner-container {
 	margin-left: auto;
 	margin-right: auto;
-
-	border-left: 1px dashed lightgrey;
-	border-right: 1px dashed lightgrey;
 
 	height: 100%;
 	width: 1440px;
@@ -75,6 +81,14 @@ h1 {
 
 	font-weight: 600;
 	text-decoration: underline;
+}
+
+#burger-button {
+	display: none;
+}
+
+#burger-menu {
+	display: none;
 }
 
 #header {
