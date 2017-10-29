@@ -6,7 +6,7 @@
 	}
 
 	h1 {
-		font-size: 24px;
+		font-size: 30px;
 		font-weight: 500;
 		letter-spacing: 5px;
 	}
@@ -40,9 +40,49 @@
 	#whatido h1 {
 		padding-top: 36px;
 	}
-
+	
 	#about h1 {
 		padding-top: 44px;
+		margin-bottom: 15px;
+		width: 370px;
+		margin-left: 350px;
+	}
+
+	#about p {
+		font-size: 16px;
+		font-weight: 300;
+		line-height: 1.38;
+		letter-spacing: 0.5px;
+	}
+
+	#about .download-info a {
+		margin-top: 15px;
+		margin-bottom: 40px;
+	}
+
+	#about .sub-section {
+		display: inline-block;
+		text-align: left;
+
+		margin-left: 25px;
+		margin-right: 25px;
+		width: initial;
+	}
+
+	#about .bio {
+		width: 370px;
+		height: initial;
+		vertical-align: top;
+		padding-top: 0px;
+	}
+
+	#about .picture {
+		width: 300px;
+	}
+
+	#about .nora-picture {
+		width: 300px;
+		height: 300px;
 	}
 
 	#portfolio h1 {
@@ -60,7 +100,7 @@
 
 	h1 {
 		font-size: 24px;
-		letter-spacing: 0.7px;
+  		letter-spacing: 5px;
 	}
 
 	#header {
@@ -94,7 +134,47 @@
 	}
 	
 	#about h1 {
-		padding-top: 44px;
+		padding-top: 55px;
+		margin-bottom: 5px;
+		width: 370px;
+		margin-left: 280px;
+	}
+
+	#about p {
+		font-size: 14px;
+		font-weight: 300;
+		line-height: 1.57;
+		letter-spacing: 0.4px;
+	}
+
+	#about .download-info a {
+		margin-top: 15px;
+		margin-bottom: 40px;
+	}
+
+	#about .sub-section {
+		display: inline-block;
+		text-align: left;
+
+		margin-left: 15px;
+		margin-right: 15px;
+		width: initial;
+	}
+
+	#about .bio {
+		width: 370px;
+		height: initial;
+		vertical-align: top;
+		padding-top: 0px;
+	}
+
+	#about .picture {
+		width: 250px;
+	}
+
+	#about .nora-picture {
+		width: 250px;
+		height: 250px;
 	}
 
 	#portfolio h1 {
@@ -159,7 +239,7 @@
 
 	h1 {
 		font-size: 20px;
-		letter-spacing: 0.6px;
+		letter-spacing: 5px;
 	}
 
 	#menu {
@@ -298,7 +378,60 @@
 	}
 	
 	#about h1 {
-		padding-top: 26px;
+		width: 100%;
+		text-align: center;
+		padding-top: 25px;
+		padding-bottom: 22px;
+		margin-left: 0;
+		margin-bottom: 0;
+	}
+
+	#about {
+	}
+
+	#about p {
+		width: 100%;
+		font-size: 15px;
+		font-weight: 300;
+		line-height: 1.47;
+		letter-spacing: 0.5px;
+
+		margin-top: 0px;
+		margin-bottom: 20px;
+	}
+
+	#about .download-info {
+		text-align: center;
+	}
+
+	#about .download-info a {
+		margin-top: 10px;
+	}
+
+	#about .sub-section {
+		text-align: center;
+
+		width: 100%;
+		margin-left: 0;
+		margin-right: 0;
+	}
+
+	#about .bio {
+		text-align: left;
+
+		width: 235px;
+		height: initial;
+		vertical-align: top;
+		padding-top: 25px;
+	}
+
+	#about .picture {
+
+	}
+
+	#about .nora-picture {
+		width: 232px;
+		height: 232px;
 	}
 
 	#portfolio h1 {

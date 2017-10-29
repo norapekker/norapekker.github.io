@@ -233,13 +233,74 @@ h1 {
 }
 
 #about {
-	background-color: #0b1a2b;
-	height: 493px;
+	background-color: #0c2645;
 	color: #ffffff;
 }
 
 #about h1 {
-	padding-top: 44px;
+	display: inline-block;
+	text-align: left;
+	width: 400px;
+	padding-top: 90px;
+	margin-left: 500px;
+	margin-bottom: -60px;
+}
+
+#about p {
+	width: 370px;
+	font-size: 16px;
+	font-weight: 300;
+	line-height: 1.38;
+	letter-spacing: 0.5px;
+
+	margin-top: 0px;
+	margin-bottom: 20px;
+}
+
+#about .download-info a {
+	display: inline-block;
+	background-color: #ffffff;
+	color: #272727;
+	text-decoration: none;
+	text-align: center;
+
+	margin-top: 35px;
+	margin-bottom: 50px;
+	font-size: 12px;
+	font-weight: 500;
+	letter-spacing: 0.4px;
+	width: 100px;
+	height: 35px;
+	line-height: 35px;
+	border-radius: 4px;
+}
+
+#about .inner-container {
+	text-align: center;
+}
+
+#about .sub-section {
+	display: inline-block;
+	text-align: left;
+
+	margin-left: 50px;
+	margin-right: 50px;
+	width: 400px;
+}
+
+#about .bio {
+	height: 400px;
+	vertical-align: top;
+	padding-top: 45px;
+}
+
+#about .picture {
+
+}
+
+#about .nora-picture {
+	width: 400px;
+	height: 400px;
 }
 
 #portfolio {
