@@ -588,6 +588,10 @@
 		margin-right: auto;
 	}
 
+	#portfolio .project img {
+		height: 135px;
+	}
+
 	#portfolio .project:nth-child(1) {
 		margin-bottom: 0;
 	}
@@ -650,6 +654,23 @@
 
 	#portfolio .project:nth-child(11) {
 		margin-bottom: 0;
+	}
+
+	#portfolio .download-info {
+		width: 247px;
+		font-size: 12px;
+		font-weight: 300;
+		line-height: 1.67;
+		letter-spacing: 0.5px;
+	}
+
+	#portfolio .download-info a {
+		margin-bottom: 50px;
+		margin-top: 14px;
+		font-size: 12px;
+		font-weight: 500;
+		letter-spacing: 0.4px;
+		border-radius: 4px;
 	}
 
 	#contact {
