@@ -96,7 +96,7 @@ h1 {
 }
 
 #header-overlay {
-	opacity: 0.85;
+	opacity: 0.9;
 	background-color: #0c2645;
 
 	height: 100%;
@@ -144,8 +144,8 @@ h1 {
 }
 
 #whatido h1 {
-	padding-top: 30px;
-	padding-bottom: 35px;
+	padding-top: 90px;
+	padding-bottom: 38px;
 }
 
 #whatido h2 {
@@ -190,7 +190,7 @@ h1 {
 	text-align: center;
 	display: inline-block;
 
-	margin-top: 15px;
+	margin-top: 100px;
 	width: 420px;
 }
 
@@ -199,7 +199,7 @@ h1 {
 	margin-right: auto;
 	text-align: center;
 
-	padding-top: 60px;
+	padding-top: 132px;
 	width: 477px;
 	font-size: 18px;
 	font-weight: 300;
@@ -213,15 +213,15 @@ h1 {
 	color: white;
 	text-decoration: none;
 
-	margin-bottom: 30px;
+	margin-bottom: 146px;
 	margin-top: 14px;
-	font-size: 12px;
+	font-size: 16px;
 	font-weight: 500;
-	letter-spacing: 0.4px;
-	width: 100px;
-	height: 35px;
-	line-height: 35px;
-	border-radius: 4px;
+	letter-spacing: 0.5px;
+	width: 150px;
+	height: 50px;
+	line-height: 50px;
+	border-radius: 20px;
 }
 
 #about {
@@ -234,7 +234,7 @@ h1 {
 	text-align: left;
 	color: white;
 	width: 400px;
-	padding-top: 90px;
+	padding-top: 127px;
 	margin-left: 500px;
 	margin-bottom: -60px;
 }
@@ -258,14 +258,14 @@ h1 {
 	text-align: center;
 
 	margin-top: 35px;
-	margin-bottom: 150px;
-	font-size: 12px;
+	margin-bottom: 183px;
+	font-size: 16px;
 	font-weight: 500;
-	letter-spacing: 0.4px;
-	width: 100px;
-	height: 35px;
-	line-height: 35px;
-	border-radius: 4px;
+	letter-spacing: 0.5px;
+	width: 150px;
+	height: 50px;
+	line-height: 50px;
+	border-radius: 20px;
 }
 
 #about .inner-container {
@@ -299,7 +299,7 @@ h1 {
 }
 
 #portfolio h1 {
-	padding-top: 50px;
+	padding-top: 76px;
 }
 
 #portfolio .projects {
@@ -314,10 +314,11 @@ h1 {
 	display: inline-block;
 	vertical-align: middle;
 
-	margin-left: 16px;
-	margin-right: 16px;
-	width: 440px;
-	height: 220px;
+	margin-bottom: 50px;
+	margin-left: 15px;
+	margin-right: 15px;
+	width: 433px;
+	height: 375px;
 }
 
 #portfolio .divider {
@@ -329,67 +330,21 @@ h1 {
 }
 
 #portfolio .project span {
+	background-color: white;
+	color: #272727;
 	position: absolute;
-	width: 100%;
-	bottom: 0;
+	top: 24px;
 	left: 0;
-	text-align: center;
+	text-align: left;
+	padding: 6px 10px;
 
-	font-family: 'Open Sans', sans-serif;
-	font-size: 14px;
-	font-weight: 300;
-	letter-spacing: 0.4px;
+	font-size: 18px;
+	font-weight: normal;
+	letter-spacing: 1.2px;
 }
 
 #portfolio .project img {
-	height: 200px;
-}
-
-#portfolio .project:nth-child(1) {
-	margin-bottom: 100px;
-}
-
-#portfolio .divider:nth-child(2) {
-	display: inline-block;
-	margin-bottom: 100px;
-	width: 1px;
-}
-
-#portfolio .project:nth-child(3) {
-	margin-bottom: 100px;
-}
-
-#portfolio .divider:nth-child(4) {
-	display: inline-block;
-	margin-bottom: 100px;
-	width: 1px;
-}
-
-#portfolio .project:nth-child(5) {
-	margin-bottom: 100px;
-}
-
-#portfolio .divider:nth-child(6) {
-	display: none;
-}
-
-#portfolio .project:nth-child(7) {
-}
-
-#portfolio .divider:nth-child(8) {
-	display: inline-block;
-	width: 1px;
-}
-
-#portfolio .project:nth-child(9) {
-}
-
-#portfolio .divider:nth-child(10) {
-	display: inline-block;
-	width: 1px;
-}
-
-#portfolio .project:nth-child(11) {
+	height: 375px;
 }
 
 #portfolio .download-info {
@@ -411,30 +366,31 @@ h1 {
 	color: white;
 	text-decoration: none;
 
-	margin-bottom: 70px;
+	margin-bottom: 152px;
 	margin-top: 14px;
-	font-size: 12px;
+	font-size: 16px;
 	font-weight: 500;
-	letter-spacing: 0.4px;
-	width: 100px;
-	height: 35px;
-	line-height: 35px;
-	border-radius: 4px;
+	letter-spacing: 0.5px;
+	width: 150px;
+	height: 50px;
+	line-height: 50px;
+	border-radius: 20px;
 }
 
 #contact {
 	background-image: url('img/desk.jpeg');
 	background-size: cover;
-	height: 640px;
+	background-image: linear-gradient(-90deg, #4f9eb7, #26324d);
 }
 
 #contact > .inner-container {
 	box-sizing: border-box;
-	padding-top: 181px;
+	padding-top: 83px;
 }
 
 #contact > div > div {
 	background-color: white;
+	box-shadow: 0 2px 9px 0 rgba(0, 0, 0, 0.5);
 	margin-left: auto;
 	margin-right: auto;
 	text-align: center;
@@ -442,14 +398,14 @@ h1 {
 
 	width: 673px;
 	height: 361px;
+	margin-bottom: 83px;
 }
 
 #contact h1 {
 	font-size: 30px;
-	font-weight: 300;
-	letter-spacing: 0.9px;
+	font-weight: normal;
+	letter-spacing: 5px;
 	text-align: center;
-	border-bottom: solid 1px #0b1a2b;
 	margin-left: auto;
 	margin-right: auto;
 
@@ -462,10 +418,10 @@ h1 {
 	margin-bottom: 0;
 
 	margin-top: 25px;
-	font-size: 16px;
+	font-size: 20px;
 	font-weight: 300;
-	line-height: 1.25;
-	letter-spacing: 0.5px;
+	line-height: 1.3;
+	letter-spacing: 0.6px;
 	color: #0b1a2c;
 }
 
@@ -494,7 +450,7 @@ h1 {
 }
 
 #footer {
-	background-color: #e4e4e4;
+	background-color: white;
 	text-align: center;
 
 	font-size: 12px;
