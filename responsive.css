@@ -438,10 +438,10 @@
 	}
 
 	#header h2 {
-		margin-top: 0px;
-		font-size: 14px;
+		margin-top: 16px;
+		font-size: 18px;
 		font-weight: 300;
-		letter-spacing: 0.4px;
+		letter-spacing: 0.6px;
 	}
 
 	#header .logo {
@@ -452,50 +452,55 @@
 	}
 
 	#whatido h1 {
-		padding-top: 18px;
+		padding-top: 45px;
 	}
 
 	#whatido h2 {
 		font-size: 18px;
 		margin-bottom: 4px;
+		margin-top: 0;
 	}
 
 	#whatido span {
 		text-align: center;
 		display: inline-block;
 
-		font-size: 12px;
+		font-size: 14px;
 		font-weight: 300;
-		letter-spacing: 0.4px;
+		letter-spacing: 0.6px;
 		width: 300px;
 	}
 
 	#whatido .topic {
+		width: 300px;
+		margin-top: 40px;
 		margin-bottom: 40px;
+		margin-left: 0px;
+		margin-right: 0px;
 	}
 
 	#whatido .download-info {
 		width: 247px;
-		font-size: 12px;
+		font-size: 16px;
 		font-weight: 300;
-		line-height: 1.67;
-		letter-spacing: 0.5px;
+		line-height: 1.25;
+		letter-spacing: 0.6px;
+		padding-top: 50px;
 	}
 
 	#whatido .download-info a {
-		margin-bottom: 50px;
+		margin-bottom: 111px;
 		margin-top: 14px;
-		font-size: 12px;
-		font-weight: 500;
-		letter-spacing: 0.4px;
-		border-radius: 4px;
+		font-size: 16px;
+		font-weight: normal;
+		letter-spacing: 0.5px;
 	}
 	
 	#about h1 {
 		width: 100%;
 		text-align: center;
-		padding-top: 25px;
-		padding-bottom: 22px;
+		padding-top: 45px;
+		padding-bottom: 47px;
 		margin-left: 0;
 		margin-bottom: 0;
 	}
@@ -520,6 +525,7 @@
 
 	#about .download-info a {
 		margin-top: 10px;
+		margin-bottom: 111px;
 	}
 
 	#about .sub-section {
@@ -549,43 +555,47 @@
 	}
 
 	#portfolio h1 {
-		padding-top: 25px;
+		padding-top: 43px;
+	}
+
+	#portfolio h2 {
+		font-size: : 18px;
 	}
 
 	#portfolio .projects {
-		padding-top: 25px;
+		padding-top: 60px;
 	}
 
 	#portfolio .project {
 		display: block;
-		width: 320px;
+		width: 300px;
+		height: 260px;
 		margin-left: auto;
 		margin-right: auto;
 	}
 
 	#portfolio .project img {
-		height: 135px;
+		height: 260px;
 	}
 
 	#portfolio .download-info {
-		width: 247px;
-		font-size: 12px;
+		
+		font-size: 14px;
 		font-weight: 300;
-		line-height: 1.67;
-		letter-spacing: 0.5px;
+		line-height: normal;
+		letter-spacing: 0.4px;
 	}
 
 	#portfolio .download-info a {
-		margin-bottom: 50px;
+		margin-bottom: 114px;
 		margin-top: 14px;
-		font-size: 12px;
-		font-weight: 500;
-		letter-spacing: 0.4px;
-		border-radius: 4px;
+		font-size: 16px;
+		font-weight: normal;
+		letter-spacing: 4.2px;
 	}
 
 	#contact {
-		height: 367px;
+		height: 348px;
 	}
 
 	#contact > .inner-container {
@@ -593,17 +603,17 @@
 	}
 
 	#contact > div > div {
-		width: 273px;
-		height: 319px;
+		width: 248px;
+		height: 303px;
 	}
 
 	#contact h1 {
-		font-size: 22px;
+		font-size: 20px;
 		font-weight: 300;
 		letter-spacing: 0.7px;
 
 		width: 181px;
-		padding-top: 46px;
+		padding-top: 28px;
 		padding-bottom: 3px;
 	}
 
@@ -611,24 +621,24 @@
 		margin-bottom: 0;
 
 		margin-top: 25px;
-		font-size: 12px;
+		font-size: 16px;
 		font-weight: 300;
-		line-height: 1.67;
-		letter-spacing: 0.4px;
+		line-height: 1.13;
+		letter-spacing: 0.5px;
 	}
 
 	#contact .detail {
 		margin-bottom: 0;
 
-		margin-top: 24px;
+		margin-top: 20px;
 		font-size: 18px;
-		font-weight: 300;
-		line-height: 1.22;
-		letter-spacing: 0.6px;
+		font-weight: normal;
+		line-height: 1.94;
+		letter-spacing: 0.5px;
 	}
 
 	#contact .linkedin {
-		bottom: 65px;
+		bottom: 17px;
 	}
 
 	#footer {
