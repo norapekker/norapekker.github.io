@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="28px" height="28px" viewBox="0 0 28 28" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 48.2 (47327) - http://www.bohemiancoding.com/sketch -->
+    <title>back button copy@3x</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Scoodle-HD" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" transform="translate(-1353.000000, -1690.000000)">
+        <g id="navigations" transform="translate(0.000000, 1605.000000)">
+            <g id="NEXT" transform="translate(1130.000000, 84.000000)">
+                <g id="back-button" transform="translate(237.000000, 15.000000) scale(-1, 1) translate(-237.000000, -15.000000) translate(222.000000, 0.000000)">
+                    <g transform="translate(2.000000, 2.000000)">
+                        <circle id="Oval" stroke="#0C2645" stroke-width="2" cx="13" cy="13" r="13"></circle>
+                        <polygon id="keyboard-left-arrow-button" fill="#0C2645" points="16 8.40095813 14.4856467 7 8 13 14.4856467 19 16 17.5977921 11.0233029 13"></polygon>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
