@@ -1,0 +1,155 @@
+/* ***** DESKTOP ***** */
+@media only screen and (max-width: 1439px) {
+	.inner-container {
+		padding-left: 75px;
+		width: initial;
+	}
+
+	#project .summary {
+		margin-bottom: 52px;
+	}
+
+	#image {
+		height: 792px;
+	}
+}
+
+
+/* ***** TABLET ***** */
+@media only screen and (max-width: 1023px) {
+	.inner-container {
+		padding-left: 50px;
+	}
+
+	#project .title {
+		width: initial;
+		display: inline-block;
+	}
+
+	#project .summary {
+		width: 430px;
+		margin-bottom: 100px;
+	}
+
+	#project p {
+		font-size: 18px;
+	}
+
+	#image {
+		height: 752px;
+	}
+
+	#navigation {
+		padding-left: 18px;
+		padding-right: 18px;
+	}
+
+	#navigation a {
+		font-size: 18px;
+	}
+
+	#download .download-info {
+		font-size: 20px;
+		line-height: 0.9;
+	}
+}
+
+
+/* ***** PHONE ***** */
+@media only screen and (max-width: 767px) {
+	.inner-container {
+		padding-left: 26px;
+		padding-right: 26px;
+	}
+
+	h1 {
+		margin-top: 76px;
+
+		font-size: 24px;
+		line-height: 1.17;
+  		letter-spacing: 1px;
+	}
+
+	h2 {
+		font-size: 22px;
+		font-weight: 600;
+		line-height: normal;
+  		letter-spacing: 0.6px;
+	}
+
+	#menu {
+		height: 40px;
+		line-height: 40px;
+	}
+
+	#menu span {
+		padding-left: 8px;
+	}
+
+	#project .summary {
+		width: 224px;
+		margin-bottom: 50px;
+	}
+
+	#project p {
+		margin-bottom: 24px;
+		font-size: 16px;
+		font-weight: 300;
+		font-style: normal;
+		font-stretch: normal;
+		line-height: normal;
+		letter-spacing: 0.6px;
+	}
+
+	#image {
+		height: 400px;
+	}
+
+	#navigation {
+		padding-left: 6px;
+		padding-right: 6px;
+	}
+
+	#navigation a {
+		font-size: 16px;
+		font-weight: normal;
+		font-style: normal;
+		font-stretch: normal;
+		letter-spacing: 0.5px;
+
+		margin-top: 64px;
+		margin-bottom: 64px;
+		height: 28px;
+		line-height: 28px;
+	}
+
+	#navigation .big {
+		display: none;
+	}
+
+	#navigation .small {
+		display: inline;
+	}
+
+	#download .download-info {
+		font-size: 18px;
+		line-height: 1;
+  		letter-spacing: 0.6px;
+
+  		padding-top: 102px;
+	}
+
+	#download .download-info a {
+		margin-top: 30px;
+	}
+
+	#footer {
+		background-color: white;
+		text-align: center;
+
+		font-size: 10px;
+		letter-spacing: 0.4px;
+
+		height: initial;
+	}
+}
