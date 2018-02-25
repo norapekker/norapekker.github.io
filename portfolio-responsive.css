@@ -87,7 +87,7 @@
 	}
 
 	#project .summary {
-		width: 224px;
+		width: initial;
 		margin-bottom: 50px;
 	}
 

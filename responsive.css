@@ -579,7 +579,7 @@
 	}
 
 	#portfolio .download-info {
-		
+		width: initial;
 		font-size: 14px;
 		font-weight: 300;
 		line-height: normal;
