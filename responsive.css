@@ -402,6 +402,7 @@
 		position: fixed;
 		display: block;
 		height: 400px;
+		min-height: 100vh;
 		top: 0;
 		left: 0;
 		right: 0;
@@ -591,7 +592,7 @@
 		margin-top: 14px;
 		font-size: 16px;
 		font-weight: normal;
-		letter-spacing: 4.2px;
+		letter-spacing: 0.5px;
 	}
 
 	#contact {

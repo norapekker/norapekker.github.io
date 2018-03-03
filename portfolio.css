@@ -101,6 +101,10 @@ h3 {
 	text-decoration: none;
 }
 
+#menu a img {
+	margin-right: 6px;
+}
+
 #menu .back {
 	height: 27px;
 	vertical-align: middle;
