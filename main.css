@@ -22,14 +22,13 @@ body, html {
 }
 
 h1 {
-	text-transform: uppercase;
 	text-align: center;
 	color: #0c2645;
 
 	margin: 0;
 	
 	font-size: 30px;
-	font-weight: 500;
+	font-weight: 300;
 	letter-spacing: 5px;
 }
 
@@ -47,8 +46,8 @@ h1 {
  	left: 0;
  	right: 0;
 
-	height: 50px;
-	line-height: 50px;
+	height: 60px;
+	line-height: 60px;
 }
 
 #menu span {
@@ -61,18 +60,19 @@ h1 {
 
 #menu a {
 	color: #0b1a2b;
-	margin-right: 27px;
+	margin-right: 50px;
 
-	font-size: 14px;
-	letter-spacing: 0.4px;
+	font-size: 20px;
+	letter-spacing: 0.6px;
 	text-decoration: none;
 }
 
-#menu a:active {
-	margin-right: 27px;
+#menu .active {
+	margin-right: 50px;
 
 	font-weight: 600;
-	text-decoration: underline;
+	border-bottom: 1px solid #0b1a2b;
+	padding-bottom: 1px;
 }
 
 #burger-button {
@@ -89,9 +89,9 @@ h1 {
 	
 	position: relative;
 
-	margin-top: 50px;
+	margin-top: 60px;
 
-	height: 638px;
+	height: 800px;
 	width: 100%;
 }
 
@@ -121,7 +121,7 @@ h1 {
 	font-size: 48px;
 	font-weight: 300;
 	letter-spacing: 1.5px;
-	color: #759bbf;
+	color: #c6dff7;
 }
 
 #header h2 {
@@ -137,7 +137,7 @@ h1 {
 	width: 107px;
 	height: 105px;
 
-	margin-top: 106px;
+	margin-top: 185px;
 }
 
 #whatido {
@@ -145,31 +145,33 @@ h1 {
 
 #whatido h1 {
 	padding-top: 90px;
-	padding-bottom: 38px;
+	padding-bottom: 10px;
 }
 
 #whatido h2 {
 	text-align: center;
 
-	font-size: 20px;
+	font-size: 24px;
 	font-weight: 500;
-	letter-spacing: 0.6px;
-	margin-bottom: 4px;
+	letter-spacing: 0.7px;
+	margin-top: 10px;
+	margin-bottom: 10px;
 }
 
 #whatido span {
 	text-align: center;
 	display: inline-block;
 
-	font-size: 14px;
+	font-size: 18px;
 	font-weight: 300;
-	letter-spacing: 0.4px;
-	width: 300px;
+	line-height: 1.44;
+	letter-spacing: 0.6px;
+	width: 342px;
 }
 
 #whatido img {
-	width: 85px;
-	height: 85px;
+	width: 100px;
+	height: 100px;
 }
 
 #whatido .topics {
@@ -213,19 +215,20 @@ h1 {
 	color: white;
 	text-decoration: none;
 
-	margin-bottom: 146px;
-	margin-top: 14px;
-	font-size: 16px;
-	font-weight: 500;
-	letter-spacing: 0.5px;
-	width: 150px;
-	height: 50px;
-	line-height: 50px;
-	border-radius: 20px;
+	margin-bottom: 129px;
+	margin-top: 22px;
+	font-size: 20px;
+	font-weight: normal;
+	letter-spacing: 0.6px;
+	width: 200px;
+	height: 55px;
+	line-height: 55px;
+	border-radius: 2px;
 }
 
 #about {
 	background-color: #0c2645;
+	background-image: linear-gradient(118deg, #1c4e7b, #0c2645);
 	color: #ffffff;
 }
 
@@ -240,10 +243,10 @@ h1 {
 }
 
 #about p {
-	width: 370px;
-	font-size: 16px;
+	width: 450px;
+	font-size: 20px;
 	font-weight: 300;
-	line-height: 1.38;
+	line-height: 26px;
 	letter-spacing: 0.5px;
 
 	margin-top: 0px;
@@ -259,13 +262,13 @@ h1 {
 
 	margin-top: 35px;
 	margin-bottom: 183px;
-	font-size: 16px;
-	font-weight: 500;
-	letter-spacing: 0.5px;
-	width: 150px;
-	height: 50px;
-	line-height: 50px;
-	border-radius: 20px;
+	font-size: 20px;
+	font-weight: normal;
+	letter-spacing: 0.6px;
+	width: 200px;
+	height: 55px;
+	line-height: 55px;
+	border-radius: 2px;
 }
 
 #about .inner-container {

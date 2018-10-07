@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="100px" height="100px" viewBox="0 0 100 100" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.1 (67048) - http://www.bohemiancoding.com/sketch -->
+    <title>user research icon</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <polygon id="path-1" points="0 0 46 0 46 47 0 47"></polygon>
+    </defs>
+    <g id="About" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="About-Desktop-HD" transform="translate(-156.000000, -1077.000000)">
+            <g id="WHAT-DO-I-DO" transform="translate(0.000000, 860.000000)">
+                <g id="User-Research" transform="translate(32.000000, 217.000000)">
+                    <g id="user-research-icon" transform="translate(124.000000, 0.000000)">
+                        <g id="Research-icon" fill="#759BBE">
+                            <circle id="Oval" cx="50" cy="50" r="50"></circle>
+                        </g>
+                        <g id="reserach-icon" transform="translate(28.155340, 28.155340)">
+                            <g>
+                                <mask id="mask-2" fill="white">
+                                    <use xlink:href="#path-1"></use>
+                                </mask>
+                                <g id="Clip-2"></g>
+                                <path d="M31.9505605,30.6812717 C34.9812148,27.4285444 36.8721841,23.0726432 36.8721841,18.2764941 C36.8721841,8.21463836 28.6133321,0 18.4362761,0 C8.25872936,0 0,8.21463836 0,18.2764941 C0,28.3377417 8.25872936,36.5525017 18.4362761,36.5525017 C22.5796261,36.5525017 26.3887994,35.2019619 29.4755179,32.9140101 L43.1843707,46.5040521 C43.5183021,46.8347246 43.935287,47 44.3521492,47 C44.7696248,47 45.214335,46.8347246 45.520541,46.5040521 C46.1598197,45.8698275 46.1598197,44.8223534 45.520541,44.1611301 L31.9505605,30.6812717 Z M3.33673767,18.2764941 C3.33673767,10.0341274 10.0941252,3.3078191 18.4362761,3.3078191 C26.7507016,3.3078191 33.5353238,10.0066423 33.5353238,18.2764941 C33.5353238,26.5463458 26.778427,33.2446826 18.4362761,33.2446826 C10.0941252,33.2446826 3.33673767,26.5187391 3.33673767,18.2764941 Z" id="Fill-1" fill="#FFFFFF" mask="url(#mask-2)"></path>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

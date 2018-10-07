@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title itemprop="name">Nora Pekker</title>
+	<meta property="og:url" content="https://norapekker.com" />
+	<meta property="og:type" content="website" />
+	<meta property="og:title" content="Nora Pekker - UX consultant" />
+	<meta property="og:image" content="https://norapekker.com/img/1200.jpg" />
+	<meta property="og:description" content="" />
+
+	<meta charset="utf-8"/>
+	<meta name="viewport" content="initial-scale=1"/>
+
+	<link href="https://fonts.googleapis.com/css?family=Montserrat:300,300i,500" rel="stylesheet">
+	<link rel="stylesheet" href="main.css?18" type="text/css">
+	<link rel="stylesheet" href="responsive.css?18" type="text/css">
+
+	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha256-3edrmyuQ0w65f8gfBsqowzjJe2iM6n0nKciPUp8y+7E=" crossorigin="anonymous"></script>
+</head>
+<body>
+	<div id="container">
+		<div id="menu">
+			<div class="inner-container">
+				<span>
+					<a href="index.html">About</a>
+					<a href="portfolio.html">Portfolio</a>
+					<a href="articles.html">Articles</a>
+					<a href="contact.html" class="active">Contact</a>
+				</span>
+				<a id="burger-button" href="#" onclick="return false;"><img src="img/menu@3x.svg" class="burger" alt="Menu"/></a>
+			</div>
+		</div>
+		<div id="burger-menu">
+			<span>
+				<a id="close-button" href="#" onclick="return false;"><img src="img/x@3x.svg" class="close-menu" alt="Close"/></a>
+			</span>
+			<span>
+				<a href="index.html">About</a>
+				<a href="portfolio.html">Portfolio</a>
+				<a href="articles.html">Articles</a>
+				<a href="contact.html">Contact</a>
+			</span>
+		</div>
+		<div id="contact">
+			<div class="inner-container">
+				<div>
+					<h1>Contact</h1>
+					<p class="text">I am a designer living in Belgium, <br/>but I take international projects.</p>
+					<p class="detail">hello@norapekker.com<br/>+32 470 48 03 46</p>
+					<a href="https://www.linkedin.com/in/nora-pekker-268592101/" target="_blank"><img src="img/linkedin@3x.svg" class="linkedin" alt="LinkedIn"/></a>
+				</div>
+			</div>
+		</div>
+		<div id="footer">
+			<div class="inner-container">
+				<span>&copy; Nora Pekker | UX Consultant and design strategist | hello&#64;norapekker.com</span>
+			</div>
+		</div>
+	</div>
+	<script type="text/javascript">
+		$('#burger-button, #close-button, #burger-menu a').click(function () {
+		  $('#burger-menu').toggleClass('open');
+		});
+	</script>
+</body>
+<html>

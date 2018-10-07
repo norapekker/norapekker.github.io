@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title itemprop="name">Nora Pekker</title>
+	<meta property="og:url" content="https://norapekker.com" />
+	<meta property="og:type" content="website" />
+	<meta property="og:title" content="Nora Pekker - UX consultant" />
+	<meta property="og:image" content="https://norapekker.com/img/1200.jpg" />
+	<meta property="og:description" content="" />
+
+	<meta charset="utf-8"/>
+	<meta name="viewport" content="initial-scale=1"/>
+
+	<link href="https://fonts.googleapis.com/css?family=Montserrat:300,300i,500" rel="stylesheet">
+	<link rel="stylesheet" href="main.css?18" type="text/css">
+	<link rel="stylesheet" href="responsive.css?18" type="text/css">
+
+	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha256-3edrmyuQ0w65f8gfBsqowzjJe2iM6n0nKciPUp8y+7E=" crossorigin="anonymous"></script>
+</head>
+<body>
+	<div id="container">
+		<div id="menu">
+			<div class="inner-container">
+				<span>
+					<a href="index.html">About</a>
+					<a href="portfolio.html" class="active">Portfolio</a>
+					<a href="articles.html">Articles</a>
+					<a href="contact.html">Contact</a>
+				</span>
+				<a id="burger-button" href="#" onclick="return false;"><img src="img/menu@3x.svg" class="burger" alt="Menu"/></a>
+			</div>
+		</div>
+		<div id="burger-menu">
+			<span>
+				<a id="close-button" href="#" onclick="return false;"><img src="img/x@3x.svg" class="close-menu" alt="Close"/></a>
+			</span>
+			<span>
+				<a href="index.html">About</a>
+				<a href="portfolio.html">Portfolio</a>
+				<a href="articles.html">Articles</a>
+				<a href="contact.html">Contact</a>
+			</span>
+		</div>
+		<div id="portfolio">
+			<div class="inner-container">
+				<h1>Portfolio</h1>
+				<div class="projects">
+					<a href="scoodle.html" class="project">
+						<img src="img/projects/scoodle.png" srcset="img/projects/scoodle.png 1x, img/projects/scoodle@2x.png" alt="Scoodle screens" />
+						<span>Scoodle | Web application</span>
+					</a>
+					<a href="scoodle_authoring.html" class="project">
+						<img src="img/projects/Image_scoodle_authoring.png" srcset="img/projects/Image_scoodle_authoring.png 1x, img/projects/Image_scoodle_authoring@2x.png 2x" alt="Scoodle Author screens" />
+						<span>Scoodle&nbsp;|&nbsp;Business&nbsp;app</span>
+					</a>
+					<a href="bnp_paribas_fortis.html" class="project">
+						<img src="img/projects/BNP_image.png" srcset="img/projects/BNP_image.png 1x, img/projects/BNP_image@2x.png 2x" alt="BNP Paribas screens" />
+						<span>BNP Paribas | Online Survey</span>
+					</a>
+					<a href="seti_observe.html" class="project">
+						<img src="img/projects/seti_image.png" srcset="img/projects/seti_image.png 1x, img/projects/seti_image@2x.png 2x" alt="SETI screens" />
+						<span>SETI | Interactive website</span>
+					</a>
+					<a href="degralia.html" class="project">
+						<img src="img/projects/Image_degralia.png" srcset="img/projects/Image_degralia.png 1x, img/projects/Image_degralia@2x.png 2x" alt="Degralia screens" />
+						<span>Degralia | B2B website</span>
+					</a>
+					<a href="im_fine.html" class="project">
+						<img src="img/projects/Image_im_fine.png" srcset="img/projects/Image_im_fine.png 1x, img/projects/Image_im_fine@2x.png 2x" alt="I&apos;m fine screens" />
+						<span>I&apos;m fine | Mobile app</span>
+					</a>
+				</div>
+				<div class="download-info">
+					Want to see more projects in detail?
+					<br/>Download my full portfolio
+					<br/><a href="downloads/portfolio_norapekker.pdf" download>Download</a>
+				</div>
+			</div>
+		</div>
+		<div id="footer">
+			<div class="inner-container">
+				<span>&copy; Nora Pekker | UX Consultant and design strategist | hello&#64;norapekker.com</span>
+			</div>
+		</div>
+	</div>
+	<script type="text/javascript">
+		$('#burger-button, #close-button, #burger-menu a').click(function () {
+		  $('#burger-menu').toggleClass('open');
+		});
+	</script>
+</body>
+<html>

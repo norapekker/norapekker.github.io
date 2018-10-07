@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="100px" height="100px" viewBox="0 0 100 100" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.1 (67048) - http://www.bohemiancoding.com/sketch -->
+    <title>ux design icon</title>
+    <desc>Created with Sketch.</desc>
+    <g id="About" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="About-Desktop-HD" transform="translate(-670.000000, -1077.000000)">
+            <g id="WHAT-DO-I-DO" transform="translate(0.000000, 860.000000)">
+                <g id="UX-design" transform="translate(549.000000, 217.000000)">
+                    <g id="ux-design-icon" transform="translate(121.000000, 0.000000)">
+                        <ellipse id="Oval" fill="#759BBE" cx="49.8695719" cy="49.6974587" rx="49.8695719" ry="49.6974587"></ellipse>
+                        <g transform="translate(17.986795, 26.865672)">
+                            <g>
+                                <rect id="Rectangle-4" stroke="#FFFFFF" stroke-width="1.5" x="0.75" y="0.75" width="61.3105263" height="42.4524324"></rect>
+                                <polygon id="Rectangle-5-Copy-2" fill="#FFFFFF" points="35.8917293 21.9762162 48.8526316 21.9762162 48.8526316 23.9740541 35.8917293 23.9740541"></polygon>
+                                <path d="M9.75,15.75 L9.75,36.2294595 L30.1838346,36.2294595 L30.1838346,15.75 L9.75,15.75 Z" id="Rectangle-5-Copy-7" stroke="#FFFFFF" stroke-width="1.5"></path>
+                                <polygon id="Rectangle-5-Copy-3" fill="#FFFFFF" points="35.8917293 25.9718919 48.8526316 25.9718919 48.8526316 27.9697297 35.8917293 27.9697297"></polygon>
+                                <polygon id="Rectangle-5-Copy-4" fill="#FFFFFF" points="35.8917293 29.9675676 48.8526316 29.9675676 48.8526316 31.9654054 35.8917293 31.9654054"></polygon>
+                                <polygon id="Rectangle-5-Copy-11" fill="#FFFFFF" points="35.8917293 33.9632432 48.8526316 33.9632432 48.8526316 35.9610811 35.8917293 35.9610811"></polygon>
+                                <path d="M10.8011278,17.2791892 L28.8011278,35.2791892" id="Line-3" stroke="#FFFFFF" stroke-linecap="square"></path>
+                                <path d="M10.8011278,35.2791892 L28.8011278,17.2791892" id="Line" stroke="#FFFFFF" stroke-linecap="square"></path>
+                                <path d="M9.75,6.75 L9.75,11.25 L51.75,11.25 L51.75,6.75 L9.75,6.75 Z" id="Rectangle-5-Copy-8" stroke="#FFFFFF" stroke-width="1.5"></path>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
