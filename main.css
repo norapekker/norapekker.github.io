@@ -298,56 +298,80 @@ h1 {
 	height: 400px;
 }
 
+#portfolio_header {
+	background-image: linear-gradient(101deg, #1c4e7b, #0c2645);
+	
+	position: relative;
+
+	margin-top: 60px;
+
+	padding-top: 130px;
+	padding-bottom: 130px;
+	width: 100%;
+}
+
+#portfolio_header h1 {
+	font-size: 48px;
+	font-weight: normal;
+	font-style: normal;
+	font-stretch: normal;
+	line-height: normal;
+	letter-spacing: 0.6px;
+	text-align: center;
+	color: #ffffff;
+
+	text-transform: uppercase;
+}
+
 #portfolio {
 }
 
-#portfolio h1 {
-	padding-top: 76px;
+#portfolio h2 {
+	margin: 0;
+	padding-top: 92px;
+	padding-bottom: 129px;
+	text-align: center;
+
+	font-size: 36px;
+	font-weight: normal;
+	font-style: normal;
+	font-stretch: normal;
+	line-height: normal;
+	letter-spacing: 0.4px;
 }
 
 #portfolio .projects {
 	text-align: center;
 	vertical-align: middle;
-
-	padding-top: 40px;
 }
 
 #portfolio .project {
-	position: relative;
-	display: inline-block;
-	vertical-align: middle;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 130px;
+	width: 768px;
+	height: 370px;
 
-	margin-bottom: 50px;
-	margin-left: 15px;
-	margin-right: 15px;
-	width: 433px;
-	height: 375px;
-}
+	box-shadow: -1px 2px 4px 0 rgba(183, 181, 181, 0.5);
+	background-color: #ffffff;
 
-#portfolio .divider {
-	background-color: #979797;
-	vertical-align: middle;
-
-	height: 180px;
-	width: 0;
-}
-
-#portfolio .project span {
-	background-color: white;
-	color: #272727;
-	position: absolute;
-	top: 24px;
-	left: 0;
-	text-align: left;
-	padding: 6px 10px;
-
-	font-size: 18px;
-	font-weight: normal;
-	letter-spacing: 1.2px;
+	overflow: hidden;
 }
 
 #portfolio .project img {
-	height: 375px;
+	width: 350px;
+	height: 370px;
+	display: block;
+	float:left;
+}
+
+#portfolio .project div {
+	width: 418px;
+	float:left;
+}
+
+#portfolio .project.right div  {
+	float:right;
 }
 
 #portfolio .download-info {
