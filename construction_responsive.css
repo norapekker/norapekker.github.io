@@ -1,0 +1,65 @@
+/* ***** DESKTOP ***** */
+@media only screen and (max-width: 1439px) {
+	
+	.inner-container {
+		width: 540px;
+	}
+
+	h1 {
+		font-size: 40px;
+
+		margin-top: 114px;
+	}
+
+	p {
+		font-size: 18px;
+		margin-bottom: 26px;
+	}
+
+	img {
+		margin-bottom: 150px;
+	}
+
+
+}
+
+/* ***** TABLET ***** */
+@media only screen and (max-width: 1023px) {
+	
+	
+
+}
+
+/* ***** PHONE ***** */
+@media only screen and (max-width: 767px) {
+	
+	#construction {
+		margin-left: 28px;
+		padding-right: 28px;
+	}
+
+	.inner-container {
+		width: initial;
+	}
+
+	h1 {
+		font-size: 26px;
+
+		margin-top: 30px;
+	}
+
+
+	p {
+		font-size: 16px;
+		line-height: 1.5;
+	}
+
+	img {
+		width: 265px;
+	}
+
+	.under {
+		width: 100%;
+	}
+
+}
