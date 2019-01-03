@@ -639,13 +639,17 @@ h1 {
 	color: #0b1a2c;
 }
 
-#contact .linkedin {
+#contact .linkedin, #contact .instagram {
 	border: 0;
 
 	width: 30px;
 	height: 30px;
 
 	margin: 0 auto;
+
+	margin-top: 30px;
+	margin-left: 15px;
+	margin-right: 15px;
 }
 
 #footer {

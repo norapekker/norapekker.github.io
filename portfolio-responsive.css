@@ -4,14 +4,6 @@
 		padding-left: 75px;
 		width: initial;
 	}
-
-	#project .summary {
-		margin-bottom: 52px;
-	}
-
-	#image {
-		height: 792px;
-	}
 }
 
 
@@ -19,24 +11,6 @@
 @media only screen and (max-width: 1023px) {
 	.inner-container {
 		padding-left: 50px;
-	}
-
-	#project .title {
-		width: initial;
-		display: inline-block;
-	}
-
-	#project .summary {
-		width: 430px;
-		margin-bottom: 100px;
-	}
-
-	#project p {
-		font-size: 18px;
-	}
-
-	#image {
-		height: 752px;
 	}
 
 	#navigation {
@@ -79,30 +53,73 @@
 
 	#menu {
 		height: 40px;
-		line-height: 40px;
 	}
 
 	#menu span {
-		padding-left: 8px;
+		display: none;
 	}
 
-	#project .summary {
-		width: initial;
-		margin-bottom: 50px;
+	#burger-button {
+		display: inline-block;
+		margin: 0 !important;
+
+		position: absolute;
+		top: 12px;
+		right: 10px;
+
+		z-index: 1002;
+
+		line-height: 0 !important;
 	}
 
-	#project p {
-		margin-bottom: 24px;
-		font-size: 16px;
-		font-weight: 300;
-		font-style: normal;
-		font-stretch: normal;
-		line-height: normal;
-		letter-spacing: 0.6px;
+	#burger-button .burger {
+		width: 23px;
+		height: 17px;
 	}
 
-	#image {
+	#close-button .close-menu {
+		width: 23px;
+		height: 17px;
+	}
+
+	#close-button {
+		text-align: right;
+		margin-right: 17px;
+
+		margin-top: 21px !important;
+	}
+
+	#burger-menu {
+		text-align: center;
+	}
+
+	#burger-menu.open {
+		position: fixed;
+		display: block;
 		height: 400px;
+		min-height: 100vh;
+		top: 0;
+		left: 0;
+		right: 0;
+
+		background-color: #759bbf;
+		z-index: 1001;
+	}
+
+	#burger-menu a {
+		display: block;
+
+		font-size: 20px;
+		letter-spacing: 0.6px;
+		color: #ffffff;
+		text-decoration: none;
+		text-transform: uppercase;
+		padding-top: 22px;
+		padding-bottom: 22px;
+		margin-left: 40px;
+		margin-right: 40px;
+
+		border-bottom: solid 1px #ffffff;
 	}
 
 	#navigation {

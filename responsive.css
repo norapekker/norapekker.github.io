@@ -339,7 +339,7 @@
 		letter-spacing: 0.9px;
 	}
 
-	#contact .linkedin {
+	#contact .linkedin, #contact .instagram {
 		bottom: 20px;
 	}
 
@@ -645,7 +645,7 @@
 		letter-spacing: 0.5px;
 	}
 
-	#contact .linkedin {
+	#contact .linkedin, #contact .instagram {
 		bottom: 17px;
 	}
 
